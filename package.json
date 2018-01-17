@@ -1,0 +1,31 @@
+{
+  "name": "Vasyl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "BrowserSync": "node_modules/.bin/browser-sync start --config bs-config.js",
+    "dev": "concurrently --kill-others \"yarn start \" \"yarn BrowserSync \""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.2",
+    "browser-sync": "^2.23.5",
+    "gulp": "next",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-yarn": "^1.0.1"
+  }
+}
